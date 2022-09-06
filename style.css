@@ -1,0 +1,80 @@
+*{ 
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {       
+    font-family:'Ubuntu', sans-serif;
+    background-image: url("img/guillermo-ferla-QfLm-2AiJ_M-unsplash.jpg");
+    background-color: #000000;
+    background-size: 100vh;
+    background-position: center ;
+    background-repeat: repeat;    
+  }
+  
+  .container {
+    background-color: #5e56b4;
+    text-align: center;
+    padding: 20px;
+    height: 650px;
+    width: 300px;
+    margin: 25px auto 15px;
+    border-radius: 25px;
+    box-shadow: 3px 5px 10px #1e1e1e50 ;
+  }
+  
+  .page-title {
+    font-family:'Antonio', sans-serif;
+    color: #000000;
+    margin: 40px 10px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin: 5px 20px  ;
+  }
+    
+  input {
+    margin: 10px;
+    padding: 6px;
+    border-radius: 5px;
+  }  
+
+  button {
+    margin: 20px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #c735c0;
+    border: none;
+    width: 120px;
+    box-shadow: 3px 5px 10px #00000050 ;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  h2 {
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    margin:15px;
+    word-wrap: break-word;
+    font-weight: normal;
+  }
+
+  footer{
+    font-size: 14px;
+    text-align: center;
+    color:#c0bebe;
+    opacity: 0.6;
+    transition: opacity 300ms;
+}
+footer a{
+    text-decoration: none;
+    color: #f0f0f0;
+}
+footer:hover{
+    opacity: 1;
+}
