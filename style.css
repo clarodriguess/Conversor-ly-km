@@ -13,15 +13,14 @@ body {
     background-repeat: repeat;    
   }
   
-  .container {
-    background-color: #5e56b4;
+    .container {
+    background: linear-gradient(220deg, #f58ef9c8 0%, #8261be 20%, #69529a 76%, #55c9b49b 100%);    
     text-align: center;
     padding: 20px;
     height: 650px;
     width: 300px;
     margin: 25px auto 15px;
     border-radius: 25px;
-    box-shadow: 3px 5px 10px #1e1e1e50 ;
   }
   
   .page-title {
